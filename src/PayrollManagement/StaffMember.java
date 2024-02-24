@@ -3,7 +3,7 @@ package PayrollManagement;
 import java.util.ArrayList;
 import java.util.List;
 
-public  class StaffMember {
+public abstract  class StaffMember {
 
     private String firstName;
     private String  lastName;
@@ -91,17 +91,7 @@ public  class StaffMember {
         return this.hoursWorked;
    }
 
-   public double CalculateSalary()
-   {
-        double salary=0.00;
-       if (this.deptNumber.equals("Manager")){
-           salary = (this.getHoursWorked() * 2500) ;
-       }
+   public abstract double CalculateSalary();
 
-      if (this.deptNumber.equals("SalesRep")){
-          salary = ((this.getHoursWorked() * 1500));
-        }
 
-           return salary;
-   }
 }

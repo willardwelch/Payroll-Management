@@ -23,4 +23,12 @@ public class SalesRep extends StaffMember
          super.display();
         System.out.println("Allowance: $"+getAllowance());
     }
+
+    @Override
+    public double CalculateSalary() {
+        double salary=0.00;
+          salary = ((this.getHoursWorked() * 1500));
+
+        return salary;
+    }
 }

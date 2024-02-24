@@ -5,10 +5,10 @@ import java.util.List;
 
 public abstract  class StaffMember {
 
-    private String firstName;
-    private String  lastName;
-    private String deptNumber;
-    private  double hoursWorked;
+    protected String firstName;
+    protected String  lastName;
+    protected String deptNumber;
+    protected   double hoursWorked;
 
     ArrayList<SalesRep> Sales_Rep;
 

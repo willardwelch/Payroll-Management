@@ -1,6 +1,8 @@
 Description of Project*Creating a workspace called Payroll Management and Implementing a StaffMember, Manager Class and a SalesRep Class in IntelliJ 
 and use inheritance and Polymorphism to Display the relevant information
 also creating 5 SalesRep and storing them in an Array List and displaying the result
+
+
        ******************
         Group Members
        *****************
